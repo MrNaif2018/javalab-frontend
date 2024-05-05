@@ -16,4 +16,4 @@ ENV NUXT_PORT 4000
 
 EXPOSE ${NUXT_PORT}
 USER node
-CMD ["sh"]
+CMD ["yarn", "start"]
