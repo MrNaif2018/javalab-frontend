@@ -209,6 +209,7 @@
                     </div>
                   </div>
                   <v-text-field
+                    v-else
                     v-model="item[header.value]"
                     :append-icon="showPassword ? 'mdi-eye' : 'mdi-eye-off'"
                     :rules="header.rules"
