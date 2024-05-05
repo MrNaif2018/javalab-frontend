@@ -4,6 +4,6 @@
 
 This is the E-commerce management admin panel.
 
-[Live demo]()
+[Live demo](https://javalab-frontend-production.up.railway.app/)
 
 ![](screenshot.png)
