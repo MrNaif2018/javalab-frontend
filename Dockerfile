@@ -12,8 +12,6 @@ RUN yarn install \
   yarn cache clean
 
 ENV NUXT_HOST 0.0.0.0
-ENV NUXT_PORT 4000
 
-EXPOSE ${NUXT_PORT}
 USER node
 CMD ["yarn", "start"]
